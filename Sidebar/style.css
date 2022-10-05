@@ -11,3 +11,12 @@ body {
 div {
   color: white;
 }
+
+.navegation {
+  background-color: white;
+
+  width: 50px;
+  height: 99vh;
+
+  margin: 7px 0px 0px 7px;
+}
