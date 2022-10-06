@@ -12,6 +12,7 @@ div {
   color: white;
 }
 
+/* 👇👇👇 now just add these styles to make the sidebar beautifu 👇👇👇 */
 .navigation {
   background-color: white;
 
@@ -88,3 +89,5 @@ div {
 .navigation.open .menu::before {
   transform: translateY(0px) rotate(45deg);
 }
+
+/* ✔ feel free to suggest me better ways to make a sideba ✌ */
