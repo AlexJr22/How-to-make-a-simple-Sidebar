@@ -19,10 +19,10 @@ div {
   border-radius: 5px;
 
   width: 50px;
-  height: 99vh;
+  height: 93vh;
 
   position: fixed;
-  margin: 7px 0px 0px 7px;
+  margin: 3px 0px 0px 3px;
 
   inset: 20px 0px 20px 20px;
   transition: 0.5s;
