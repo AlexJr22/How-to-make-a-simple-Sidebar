@@ -12,7 +12,7 @@ div {
   color: white;
 }
 
-.navegation {
+.navigation {
   background-color: white;
 
   border-radius: 5px;
@@ -29,11 +29,11 @@ div {
   box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
 }
 
-.navegation.open {
+.navigation.open {
   width: 250px;
 }
 
-.navegation .menu {
+.navigation .menu {
   position: absolute;
 
   top: 0;
@@ -53,7 +53,7 @@ div {
   padding: 0px 20px;
 }
 
-.navegation .menu::before {
+.navigation .menu::before {
   content: '';
   background-color: #333;
   
@@ -65,7 +65,7 @@ div {
   transform: translateY(-8px);
   transition: 0.5s;
 }
-.navegation .menu::after {
+.navigation .menu::after {
   content: '';
   background-color: #333;
 
@@ -80,11 +80,11 @@ div {
   box-shadow: 0px -8px 0px #333;
 }
 
-.navegation.open .menu::after{
+.navigation.open .menu::after{
   transform: translateY(0px) rotate(-45deg);
   box-shadow: 0px 0px 0px #333;
 }
 
-.navegation.open .menu::before {
+.navigation.open .menu::before {
   transform: translateY(0px) rotate(45deg);
 }
