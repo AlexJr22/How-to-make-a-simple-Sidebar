@@ -6,25 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sidebar</title>
 
-  <!-- links CSS -->
+  <!-- style link -->
   <link rel="stylesheet" href="style.css">
   
 </head>
 <body>
   
-  <div class="navegation">
+  <!-- 1 - let's create a div with two elements -->
+  <div class="navigation">
     <div class="menu"></div>
   </div>
 
   <script>
     
-    const navegation = document.querySelector('.navegation');
+    // 2 - we will use the following script to add an 'open' class in the 'navigation' element
+
+    const navigation = document.querySelector('.navigation');
     const menu = document.querySelector('.menu');
 
     menu.onclick = () => {
-      navegation.classList.toggle('open');
+      navigation.classList.toggle('open');
     }
-
+    // 3 - now let's go to styles.css
   </script>
 </body>
 </html>
