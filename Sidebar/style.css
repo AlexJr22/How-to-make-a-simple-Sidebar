@@ -19,12 +19,11 @@ div {
   border-radius: 5px;
 
   width: 50px;
-  height: 93vh;
+  height: calc(100vh - 20px);
 
   position: fixed;
-  margin: 3px 0px 0px 3px;
+  margin: 10px 0px 0px 10px;
 
-  inset: 20px 0px 20px 20px;
   transition: 0.5s;
 
   box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
